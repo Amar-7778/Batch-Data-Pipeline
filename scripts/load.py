@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 
 def load_data(df):
-    db_url = "postgresql+psycopg2://postgres:Amar7778@host.docker.internal:5432/customer_db"
+    db_url = "postgresql+psycopg2://postgres:Password@host.docker.internal:5432/customer_db"
     
     engine = create_engine(db_url)
     
